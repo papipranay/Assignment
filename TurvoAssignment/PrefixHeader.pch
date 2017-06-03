@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  TurvoAssignment
+//
+//  Created by Pranay on 6/1/17.
+//  Copyright © 2017 Pranay. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define FEATUREDURL @"https://gist.githubusercontent.com/papipranay/bd2a0b470aeb232a915b1e1e856465de/raw/f64cbd7f9e0dfe9cde65d1e3b6b533b347d4e857/gistfile1.txt"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import "CustomCollectionView.h"
+#import "DetailViewController.h"
+#import "CustomMapView.h"
+#import <MapKit/MapKit.h>
+#import "CustomLocationManager.h"
+#import "SecondViewController.h"
+#import "FirstViewController.h"
+#import "FeaturedLocationObject.h"
+#import "AFNetworking.h"
+#import "RequestService.h"
+#import "FeaturedResponse.h"
+
+
+#endif /* PrefixHeader_pch */
